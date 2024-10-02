@@ -118,7 +118,28 @@ main img:hover{
 
 footer{
     background-color: black;
-    height: 200px;
+    height: 300px;
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+}
+
+footer h3{
+    color: rgb(156, 156, 156);
+}
+
+footer span{
+    color: white;
+}
+
+footer i{
+    color: gray;
+}
+
+#contenedor{
+    padding-top: 3%;
 }
 
 p{
@@ -180,6 +201,10 @@ p{
         font-size: 1.2em;
         margin: 5px 0;
         line-height: 1.4;
+    }
+
+    footer{
+        height: 450px;
     }
 
     
