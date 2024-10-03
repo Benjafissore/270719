@@ -52,7 +52,7 @@ h2{
 }
 
 #grilla{
-    height: 1600px;
+    height: 1700px;
     background-color: beige;
     display: grid;
     grid-template-columns: 30% 30% 30%;

@@ -16,7 +16,7 @@ nav{
 
 }
 
-ul{
+nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@ ul{
 
 }
 
-li{
+nav li{
     display: inline-block;
     width: 19%;
     text-align: center;
@@ -49,14 +49,14 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img{
+header img{
     height: 100%;
     width: 100%;
 }
 
 footer{
     background-color: black;
-    height: 300px;
+    height: 350px;
 }
 
 footer p{
@@ -80,15 +80,38 @@ footer i{
     padding-top: 3%;
 }
 
-p{
+main p{
     color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2em;
-    margin: 5px 0;
-    line-height: 1.4;
+    width: 80%;
+    font-size: 20px;
+}
+
+main li{
+    font-size: 18px;
 }
 
 main{
-    height: 500px;
+    height: 650px;
     background-color: beige;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#mainUl{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+}
+
+#imgContent{
+    padding: 5%;
+}
+
+#textContent{
+    padding: 5%;
 }
