@@ -100,3 +100,21 @@ main{
 main p{
     padding-inline: 5%;
 }
+
+@media screen and ( max-width:600px){
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        height: 200px;
+        background-color: rgb(126, 73, 9);
+    }
+    
+
+
+
+
+}

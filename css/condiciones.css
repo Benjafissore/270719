@@ -95,6 +95,7 @@ img{
 
 main img{
     border-radius: 15%;
+    
 }
 
 main img:hover{
@@ -189,6 +190,10 @@ p{
         font-size: 70%;
         margin: 5px 0;
         line-height: 1.4;
+    }
+
+    footer{
+        height: 451px;
     }
 
     

@@ -106,3 +106,37 @@ main{
     height: 600px;
     background-color: beige;
 }
+
+@media screen and ( max-width:600px){
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        height: 200px;
+        background-color: rgb(126, 73, 9);
+    }
+
+    main{
+        height: 800px;
+    }
+    
+    #contenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+    }
+
+    #contenido2{
+        padding: 3%;
+    }
+
+    #mapa{
+        padding: 3%;
+        height: 70%;
+        width: 70%;
+    }
+}
