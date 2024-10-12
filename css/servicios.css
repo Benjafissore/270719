@@ -116,7 +116,7 @@ main{
     padding: 5%;
 }
 
-@media screen and ( max-width:600px){
+@media screen and ( max-width:700px){
 
     ul{
         display: flex;
@@ -128,4 +128,32 @@ main{
         background-color: rgb(126, 73, 9);
     }
     
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    #imgcontent{
+        align-items: center;
+
+    }
+    
+    main img{
+        height: 100%;
+        width: 100%;
+    }
+    
+  
+    
+
+    
+
+    main{
+        height: 1300px;
+    }
+    
+
+
 }

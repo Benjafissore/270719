@@ -126,17 +126,12 @@ main{
     #contenido{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-content: space-around;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
     }
 
-    #contenido2{
-        padding: 3%;
-    }
+   
 
-    #mapa{
-        padding: 3%;
-        height: 70%;
-        width: 70%;
-    }
+  
 }
