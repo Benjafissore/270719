@@ -80,7 +80,7 @@ footer i{
     padding-top: 3%;
 }
 
-main p{
+p{
     color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 80%;
@@ -146,10 +146,6 @@ main{
     }
     
   
-    
-
-    
-
     main{
         height: 1300px;
     }
