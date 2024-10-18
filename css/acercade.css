@@ -51,7 +51,7 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img{
+header img{
     height: 100%;
     width: 100%;
 }
@@ -64,6 +64,10 @@ footer{
 footer p{
     color: white;
     font-size: 15px;
+    margin: 5px 0;
+    line-height: 1.4;
+    padding-inline: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer h3{
@@ -82,23 +86,35 @@ footer i{
     padding-top: 3%;
 }
 
-p{
+main p{
     color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.4;
+    font-size: 20px;
+    padding-top: 3%;
 }
 
 main{
-    height: 500px;
+    height: 800px;
     background-color: beige;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
-main p{
-    padding-inline: 5%;
+#content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+main img{
+    width: 500px;
+}
+
+#texto{
+    padding: 5%;
+}
+
+#imagen{
+    padding: 5%;
 }
 
 @media screen and ( max-width:600px){
@@ -112,9 +128,38 @@ main p{
         height: 200px;
         background-color: rgb(126, 73, 9);
     }
+
+    main{
+        height: 1100px;
+    }
+
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    main p{
+        font-size: 18px;
+    }
+
+    main img{
+        height: 100%;
+        width: 100%;
+    }
+
+    footer{
+        height: 451px;
+    }
+
+
+
     
 
 
-
-
+    
 }

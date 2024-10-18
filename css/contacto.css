@@ -76,6 +76,10 @@ footer{
 footer p{
     color: white;
     font-size: 15px;
+    margin: 5px 0;
+    line-height: 1.4;
+    padding-inline: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer h3{
@@ -94,7 +98,7 @@ footer i{
     padding-top: 3%;
 }
 
-p{
+main p{
     color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
@@ -131,7 +135,16 @@ main{
         height: 100%;
     }
 
-   
+    #mapa{
+        width: 90%;
+    }
 
-  
+
+
+    footer {
+        height: 451px;
+      }
+
+   
+   
 }
